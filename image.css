@@ -1,0 +1,34 @@
+body{
+	background-image: url(bgn1.jfif);
+	background-size: cover;
+	background-position: center;
+
+}
+header{
+	font-size: 24px;
+	font-family: sans-serif;
+	text-align: center;
+}
+p{
+	font-size: 20px;
+}
+main{
+	margin-left: 120px;
+}
+.box{
+	display: block;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+img{
+	width: 100%;
+	border-radius: 8px;
+}
+
+img:hover{
+	transform: scale(2,2);
+	transition: .3s transform;
+}
